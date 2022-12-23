@@ -1,0 +1,378 @@
+@media (max-width: 1400px)
+{
+    header .row
+    {
+        padding: 0;
+    }
+
+    .container
+    {
+        max-width: 1140px;
+    }
+
+    .mai-menu .nav-item
+    {
+        margin: 10px 5px;
+    }
+}
+
+@media (max-width: 1200px)
+{
+    header .header-menu
+    {
+        display: none;
+    }
+
+    .toggle
+    {
+        display: block;
+        text-align: right;
+        padding-right: 30px;
+        cursor: pointer;
+    }
+
+    .toggle .toggle-icon i
+    {
+        font-size: 35px;
+        color: #ff014f;
+    }
+
+
+    header .row .col-1,
+    header .row .col-2
+    {
+        flex: 0 0 50%;
+    }
+
+    .popup-mobile-menu
+    {
+        display: block;
+        z-index: 999;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.8);
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.5s ease-out;
+    }
+
+    .popup-mobile-menu.menu-open
+    {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .popup-mobile-menu .inner
+    {
+        padding: 25px 40px;
+        width: 375px;
+        height: 100vh;
+        position: absolute;
+        left: 0;
+        background: #191b1e;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 0 10px 0 rgba(0 0 0 / 70%);
+        opacity: 0;
+        left: -150px;
+        transition: all 0.5s ease-out;
+    }
+
+    .popup-mobile-menu.menu-open .inner
+    {
+        opacity: 1;
+        left: 0px;
+    }
+
+    .popup-mobile-menu .menu-top .logo img 
+    {
+        width: 70px;
+        height: auto;
+        vertical-align: middle;
+        border-radius: 50%;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .popup-mobile-menu .menu-top
+    {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        padding-bottom: 20px;
+    }
+
+    .popup-mobile-menu .menu-top .menu-top-inner
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .popup-mobile-menu .menu-top .close-button
+    {
+        border-bottom: rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .popup-mobile-menu .menu-top .close-button .close
+    {
+        font-size: 1.5rem;
+        background: transparent;
+        border: 0;
+        cursor: pointer;
+    }
+
+    .popup-mobile-menu .menu-top .close-button .close i
+    {
+        color: #ff014f;
+        font-size: 20px;
+    }
+
+    .popup-mobile-menu .menu-top .description
+    {
+        font-size: 16px;
+        line-height: 29px;
+        margin-top: 20px;
+        padding-right: 0;
+    }
+
+    .popup-mobile-menu .primary-menu
+    {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .popup-mobile-menu .primary-menu li
+    {
+        display: block;
+        margin: 8px 0;
+    }
+
+    .popup-mobile-menu .primary-menu li a 
+    {
+        color: #c4cfde;
+        position: relative;
+        transition: 0.4s;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        display: inline;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    .social-share-type-1
+    {
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        padding-top: 20px;
+        margin-top: 100px;
+    }
+
+    .social-share-type-1 .title
+    {
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 500;
+        color: #c4cfde;
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    .social-share-type-1 .social-share 
+    {
+        list-style-type: none;
+    }
+
+    .social-share-type-1 .social-share li 
+    {
+        margin: 0 15px 15px 0;
+        display: inline-block;
+    }
+
+    .social-share-type-1 .social-share li a 
+    {
+        display: inline-block;
+        width: 53px;
+        height: 53px;
+        line-height: 53px;
+        text-align: center;
+        font-size: 14px;
+        border-radius: 6px;
+        transition: 0.6s;
+        background: linear-gradient(145deg, #1e2024, #23272b);
+        z-index: 1;
+        color: #c4cfde;
+    }
+
+    .social-share-type-1 .social-share li a i 
+    {
+        transition: .4s;
+        stroke-width: 2;
+        width: 20px;
+        position: relative;
+    }
+
+    .container
+    {
+        max-width: 960px;
+    }
+
+    .home .home-inner
+    {
+        padding-bottom: 80px;
+        padding-top: 150px;
+    }
+
+    .home .content .inner
+    {
+        margin-bottom: 40px;
+    }
+
+    .home .content .inner .title
+    {
+        font-size: 50px;
+        line-height: 1.2;
+    }
+
+    .home .content .inner .description
+    {
+        margin-bottom: 30px;
+    }
+}
+
+
+
+@media (max-width: 992px)
+{
+    .container
+    {
+        max-width: 720px;
+    }
+
+    .home .row .column-1,
+    .home .row .column-1
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .home .home-inner
+    {
+        padding-bottom: 80px;
+    }
+
+    .home .content .inner .title
+    {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .home .content .inner .description
+    {
+        margin-bottom: 40px;
+        padding-right: 0;
+    }
+}
+
+@media(max-width: 768px)
+{
+    .container
+    {
+        max-width: 540px;
+    }
+
+    header .row
+    {
+        padding: 0 20px;
+        height: 80px;
+    }
+
+    header .logo
+    {
+        padding-left:0px;
+    }
+
+    header .logo img
+    {
+        max-height: 54px;
+        max-width: 54px;
+    }
+
+    header .logo a span
+    {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    .toggle
+    {
+        padding-right: 0px;
+    }
+
+    .toggle .toggle-icon i
+    {
+        font-size: 30px;
+    }
+
+    .title .typed-text
+    {
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 576px)
+{
+    .container
+    {
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    header .row
+    {
+        padding: 0 15px;
+    }
+
+    .home .content .row .col-1,
+    .home .content .row .col-2
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .home .content .inner .subtitle
+    {
+        letter-spacing: 1px;
+    }
+
+    .home .content inner .title
+    {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .title span.typed-text
+    {
+        font-size: 26px;
+    }
+
+    .popup-mobile-menu .inner
+    {
+        width: 310px;
+        padding: 10px;
+    }
+}
