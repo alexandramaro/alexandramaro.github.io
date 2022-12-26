@@ -32,7 +32,7 @@ header .row
     width: 100%;
     display: flex;
     align-items: center;
-    /*padding: 0 20px;*/
+    padding: 0 20px;
     height: 122px;
 }
 
@@ -402,7 +402,7 @@ b{
     line-height: 30px;
     color: #fff;
     padding-right: 16%;
-    padding-left: 10%;
+    padding-left: 16%;
     opacity: 0.9;
 }
 
