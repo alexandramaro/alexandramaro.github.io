@@ -461,6 +461,7 @@ table {
 }
   td img{
     transition: all 1000ms ease-in-out;
+    border-radius: 20px;
   }
 
   td:hover img{

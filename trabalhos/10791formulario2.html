@@ -1,0 +1,104 @@
+<!DOCTYPE html> 
+<!-- 
+To change this license header, choose License Headers in Project Properties. To change this template file, choose Tools | Templates and open the template in the editor. 
+--> 
+<html> 
+    <head> 
+        <title>TODO supply a title</title> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <!-- <script src="validar.js"></script> --> 
+    </head> 
+ 
+    <body> 
+ 
+        <h2>HTML Forms</h2> 
+ 
+        <form method="post" action="mailto:alexandramaro@gmail.com" onsubmit="return ValidateEmail();">
+            <label for="fname">First name&nbsp;  
+                <input type="text" id="fname" name="fname"  
+                       placeholder="Primeiro nome"> 
+            </label>  
+            <br> 
+            <p><label for="lname">Last name&nbsp; </label>
+                <input type="text" id="lname" name="lname"  
+                       placeholder="Último nome"> 
+            </p> 
+            <br> 
+            <p><label for="username">Username&nbsp;  
+                    <input type="text" id="username" name="username"></label> 
+            </p> 
+ 
+            <label for="pwd">Password&nbsp; 
+                <input type="password" id="pwd" name="pwd"></label><br> 
+            <br><br> 
+ 
+            <h2>Linguagem favorita</h2> 
+            <p>O nome da variável tem de ser o mesmo para as opções serem mutuamente exclusivas</p> 
+            <label for="htmlR"> 
+                <input type="radio" id="htmlR" name="fav_language" value="HTML"> 
+                HTML 
+            </label><br> 
+            <label for="cssR"> 
+                <input type="radio" id="cssR" name="fav_language" value="CSS"> 
+                CSS 
+            </label><br> 
+            <label for="javascriptR"> 
+                <input type="radio" id="javascriptR" name="fav_language"  
+                       value="JavaScript"> 
+                JavaScript 
+            </label><br><br> 
+ 
+            <h2>Linguagem conhecidas</h2> 
+ 
+            <label for="htmlC"> 
+                <input type="checkbox" id="htmlC" name="html" value="HTML"> 
+                HTML 
+            </label><br> 
+            <label for="cssC"> 
+                <input type="checkbox" id="cssC" name="css" value="CSS"> 
+                CSS 
+            </label><br> 
+ 
+            <label for="javascriptC"> 
+                <input type="checkbox" id="javascriptC" name="js" value="JavaScript"> 
+                JavaScript 
+            </label><br><br> 
+ 
+            <label for="email">Enter your email&nbsp; 
+                <input type="text" id="email" name="email"> 
+            </label> 
+            
+            <br><br> 
+ 
+            <input type="button" onclick="alert('Hello Javascript!')" value="Click Me!"> 
+            <br><br> 
+ 
+            <label for="favcolor">Select your favorite color:</label> 
+            <input type="color" id="favcolor" name="favcolor"> 
+            <br><br> 
+ 
+            <input type="submit" value="Submeter">  
+            <input type="reset" value="Limpar dados"> 
+ 
+        </form>  
+ 
+        <script> 
+            function ValidateEmail() 
+            { 
+                // alterar esta linha 
+                if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(document.getElementById('email').value) 
+                        ) 
+                { 
+                    return true; 
+                } 
+                alert("You have entered an invalid email address!"); 
+                return false; 
+            } 
+ 
+        </script> 
+    </body> 
+</html> 
+ 
+
+
