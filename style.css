@@ -500,3 +500,21 @@ table {
     border-radius: 20px;
   }
 
+/*Link não visitado */
+a:link {
+    color: #ff014f;
+    text-decoration: none;
+  }
+  
+  /*Link já visitado*/
+  a:visited {
+    color: yellow;
+    text-decoration: none;
+  }
+  
+  /*Quando o mouse passa por cima*/
+  a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+ 
