@@ -1,9 +1,5 @@
 /* Google Font link */
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
-
-/*font-family: 'Montserrat', sans-serif;
-font-family: 'Poppins', sans-serif;*/
 
 *
 {
@@ -36,18 +32,18 @@ header .row
     width: 100%;
     display: flex;
     align-items: center;
-    padding: 0 50px;
+    /*padding: 0 20px;*/
     height: 122px;
 }
 
 header .row .col-1
 {
-    flex: 0 0 30%;    
+    flex: 0 0 15%;    
 }
 
 header .row .col-2
 {
-    flex: 0 0 70%;    
+    flex: 0 0 85%;    
 }
 
 header .logo
@@ -55,7 +51,7 @@ header .logo
     width: 100%;
     height: auto;
     display: flex;
-    padding-left: 30px;    
+    padding-left: 20px;    
 }
 
 header .logo a
@@ -142,7 +138,7 @@ b{
 
 .home .home-inner
 {
-    padding-top: 220px;
+    padding-top: 150px;
     padding-bottom: 100px;
     position: relative;    
 }
@@ -182,7 +178,7 @@ b{
     text-transform: uppercase;
     font-weight: 500;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     
 }
 
@@ -336,7 +332,7 @@ b{
 
 .home .content .skills .skills-inner li img
 {
-    max-height: 30px;
+    max-height: 23px;
     width: auto;
     margin-top: 18px;
     display: inline-block;
@@ -351,8 +347,7 @@ b{
     background: linear-gradient(145deg, #1e2024, #23272b);
     box-shadow: 10px 10px 19px #1c1e22,
                 -10px -10px -19px #262a2e;
-    border-radius: 6px;
-    
+    border-radius: 6px;    
 }
 
 .home .profile .profile-image
@@ -399,7 +394,6 @@ b{
     margin-left: 48.5%;
 }
 
-
 .heading p {
     margin: .7em auto;
     font-family: 'Montserrat', sans-serif;    
@@ -411,9 +405,6 @@ b{
     padding-left: 10%;
     opacity: 0.9;
 }
-
-
-
 
 table {
     padding-left: 40px;
@@ -464,7 +455,6 @@ table {
     z-index: 2; 
   }
 
-
   .box{
     width: 250px;
     height: auto;
@@ -513,3 +503,55 @@ a:link {
     text-decoration: none;
   }
  
+  .contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 16px 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+.form{
+    /* Centralizar o formulário na pagina */
+  margin: 0 auto;
+  width: 400px;
+  /* Ver o esboço do formulário */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+
+}
+
+input, textarea {
+    /* Para garantir que todos os campos de texto tenham as mesmas configurações de fonte
+       Por padrão, as áreas de texto possuem a mesma fonte */
+    font: 1em sans-serif;
+    
+    /* Para harmonizar o aspecto e a sensação da borda do campo de texto */
+    border: 1px solid #ff014d56;
+  }
+  
+  input:focus, textarea:focus {
+    /* Para dar um pouco de destaque aos elementos ativos*/
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Para alinhar corretamente campos de texto multilinha com seus rótulos */
+    vertical-align: top;
+  
+    /* Para dar espaço suficiente para digitar algum texto */
+    width: 25em;
+    height: 5em;
+  }
+  
+
+  
+  button {
+    
+    /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço
+       entre os rótulos e seus campos de texto*/
+    margin-left: .9em;
+  }
