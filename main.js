@@ -1,6 +1,6 @@
 const typedTextSpan = document.querySelector('.typed-text');
 
-const textArray = ['sou curiosa,', 'sonhadora,', 'dedicada,', 'focada,', 'persistente,', 'adoro aprender,', 'resolver problemas,', 'Adoro codificar!'];
+const textArray = ['sou curiosa,', 'sonhadora,', 'dedicada,', 'focada,', 'persistente,', 'adoro aprender,', 'resolver problemas.', 'Coding is fun!'];
 const typinDelay = 40; //Typing speed
 const erasingDelay = 40; // Typed word removal spreed
 const newTextDelay = 1000; // Delay between current and next text
