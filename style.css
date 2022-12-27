@@ -525,12 +525,16 @@ a:link {
 }
 
 input, textarea {
-    /* Para garantir que todos os campos de texto tenham as mesmas configurações de fonte
-       Por padrão, as áreas de texto possuem a mesma fonte */
-    font: 1em sans-serif;
-    
-    /* Para harmonizar o aspecto e a sensação da borda do campo de texto */
-    border: 1px solid #ff014d56;
+    width: 50%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: #ff014d1e;
+    color: #fff;
+    transition: all .3s ease-in-out;
   }
   
   input:focus, textarea:focus {
@@ -546,8 +550,23 @@ input, textarea {
     width: 25em;
     height: 5em;
   }
-  
 
+  input::placeholder,
+  textarea::placeholder
+  {
+      color: #fff;
+  }
+
+  input:focus,
+  textarea:focus
+  {
+      background: #ff014f;
+  }
+
+  textarea
+  {
+      width: 100%;
+  }
   
   button {
     
@@ -555,3 +574,87 @@ input, textarea {
        entre os rótulos e seus campos de texto*/
     margin-left: .9em;
   }
+
+  .newcontainer
+  {
+    max-width: 960px;
+    margin: auto;
+  }
+
+.roww
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.coll
+{
+    width: 50%;
+}
+
+section .contacto
+{
+    width: 100%;
+    background: ff014f;
+}
+
+form{
+    color: #fff;
+    width: 100%;
+}
+
+form h2{    
+    font-size: 1.9em;
+    color: #ff014f;
+    text-transform: capitalize;
+    margin: 1em auto .2em auto;
+    justify-content: center;
+}
+
+form .desc{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.name-group,
+.mail-group,
+.msg
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form button
+{
+    background: #ff014d2f;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    
+}
+
+form button:hover
+{
+    background: #ff014f;
+    
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: ff014f;
+    color: white;
+    text-align: center;
+ }
+ 
