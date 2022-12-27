@@ -535,6 +535,7 @@ input, textarea {
     background: #ff014d1e;
     color: #fff;
     transition: all .3s ease-in-out;
+    font-family: 'Poppins', sans-serif;
   }
   
   input:focus, textarea:focus {
@@ -594,12 +595,6 @@ input, textarea {
     width: 50%;
 }
 
-section .contacto
-{
-    width: 100%;
-    background: ff014f;
-}
-
 form{
     color: #fff;
     width: 100%;
@@ -648,13 +643,11 @@ form button:hover
     background: #ff014f;
     
 }
-
 .footer {
-    left: 0;
-    bottom: 0;
     width: 100%;
-    background-color: ff014f;
-    color: white;
+    background-color: #ff014f;
+    color: #fff;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
  }
  
