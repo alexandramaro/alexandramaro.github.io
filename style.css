@@ -618,7 +618,13 @@ input, textarea {
   }
   
   button {
-    
+    padding: 12px 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+    cursor: pointer; 
     /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço
        entre os rótulos e seus campos de texto*/
     margin-left: .9em;
@@ -671,7 +677,6 @@ form .desc{
     align-items: center;
 }
 
-
 form button
 {
     background: #ff014d2f;
@@ -682,8 +687,7 @@ form button
     outline: none;
     text-transform: uppercase;
     transition: all .3s ease-in-out;
-    cursor: pointer;
-    
+    cursor: pointer;    
 }
 
 form button:hover
@@ -691,7 +695,6 @@ form button:hover
     background: #ff014f;
     
 }
-
 
 .footer {
     width: 100%;
