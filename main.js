@@ -47,10 +47,18 @@ const mobile_menu = document.querySelector('.popup-mobile-menu');
 const toggle = document.querySelector('.toggle');
 const close_btn = document.querySelector('.close-button');
 
+
+mobile_menu.addEventListener('click', ()=>
+{
+    mobile_menu.classList.remove('menu-open');
+})
+
 toggle.addEventListener('click', ()=>
 {
     mobile_menu.classList.add('menu-open');
 })
+
+
 
 close_btn.addEventListener('click', ()=>
 {
