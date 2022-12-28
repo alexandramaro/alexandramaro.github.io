@@ -407,6 +407,23 @@ b{
     opacity: 0.9;
 }
 
+.heading a:link {
+    color: #ff014f;
+    text-decoration: none;
+  }
+  
+  /*Link já visitado*/
+  .heading a:visited {
+    color: yellow;
+    text-decoration: none;
+  }
+  
+  /*Quando o mouse passa por cima*/
+  a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
 table {
     padding-left: 40px;
     padding-right: 40px;
@@ -489,18 +506,21 @@ table {
   }
 
 /*Link não visitado */
+u:link,
 a:link {
     color: #ff014f;
     text-decoration: none;
   }
   
   /*Link já visitado*/
+  u:visited,
   a:visited {
     color: yellow;
     text-decoration: none;
   }
   
   /*Quando o mouse passa por cima*/
+  u:hover,
   a:hover {
     color: #fff;
     text-decoration: none;
