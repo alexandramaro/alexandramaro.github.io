@@ -2,41 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
 @font-face {font-family: "Material Symbols Outlined";src: url(https://fonts.gstatic.com/s/materialsymbolsoutlined/v35/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHOej.woff2) format("woff2");}
 
-
-.material-symbols-outlined {
-          font-family: "Material Symbols Outlined";
-          font-size: 24px;
-          display: inline-block;
-          white-space: nowrap;
-          
-          /* not necessary. makes it so you can't highlight. -webkit- is for safari! */
-          -webkit-user-select: none;
-          user-select: none;
+html{    
+    scroll-behavior: smooth;
 }
-
-.content-container {
-  height: 150vh;
-}
-#scroll-to-top {
-    position: sticky;
-    /* bottom is easy, just set it to what you want */
-    bottom: 15px;
-    /* to keep distance from bottom on footer*/
-    margin-bottom: 15px;
-    left: 0;
-    right: 5%;
-    margin-left: auto;   
-    color: #fff; 
-    /* look good (actually a really nice color!) */
-    background: #ff014f;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    cursor: pointer;
-  }
 
 *
 {
@@ -696,11 +664,47 @@ form button:hover
     
 }
 
-.footer {
+.footer {   
     width: 100%;
     background-color: #ff014d2f;
     color: #fff;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
  }
+
+ .material-symbols-outlined {
+    font-family: "Material Symbols Outlined";
+    font-size: 24px;
+    display: inline-block;
+    white-space: nowrap;
+          
+    /* not necessary. makes it so you can't highlight. -webkit- is for safari! */
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.content-container {
+  height: 150vh;
+}
+#scroll-to-top {
+    position: sticky;
+    /* bottom is easy, just set it to what you want */
+    bottom: 15px;
+    /* to keep distance from bottom on footer*/
+    margin-bottom: 15px;
+    left: 0;
+    right: 5%;
+    margin-left: auto;   
+    color: #fff; 
+    /* look good (actually a really nice color!) */
+    background: #ff014f;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
  
