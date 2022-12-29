@@ -2,10 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
 @font-face {font-family: "Material Symbols Outlined";src: url(https://fonts.gstatic.com/s/materialsymbolsoutlined/v35/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHOej.woff2) format("woff2");}
 
-html{    
-    scroll-behavior: smooth;
-}
-
 *
 {
     margin: 0;
@@ -492,10 +488,6 @@ table {
     z-index: 2;    
   }
 
-  /*.responsive img{
-    border-radius: 20px;
-  }*/
-
   .profile-image img{
     display: block;
     width: 100%;
@@ -505,12 +497,11 @@ table {
   }
 
 /*Link não visitado */
-u:link,
-a:link {
+  u:link,
+  a:link {
     color: #ff014f;
     text-decoration: none;
   }
-  
   
   /*Quando o mouse passa por cima*/
   a:hover,
@@ -529,18 +520,18 @@ a:link {
     flex-direction: column;
   }
 
-.form{
-    /* Centralizar o formulário na pagina */
-  margin: 0 auto;
-  width: 400px;
-  /* Ver o esboço do formulário */
-  padding: 1em;
-  border: 1px solid #CCC;
-  border-radius: 1em;
+  .form{
+        /* Centralizar o formulário na pagina */
+    margin: 0 auto;
+    width: 400px;
+    /* Ver o esboço do formulário */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
 
-}
+  }
 
-input, textarea {
+  input, textarea {
     width: 50%;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -604,49 +595,49 @@ input, textarea {
     margin: auto;
   }
 
-.roww
-{
+  .roww
+  {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-}
+  }
 
 .coll
 {
     width: 50%;
 }
 
-form{
+  form{
     color: #fff;
     width: 100%;
-}
+  }
 
-form h2{    
+  form h2{    
     font-size: 1.9em;
     color: #ff014f;
     text-transform: capitalize;
     margin: 1em auto .2em auto;
     justify-content: center;
-}
+  }
 
-form .desc{
+  form .desc{
     font-size: 14px;
     margin-bottom: 15px;
-}
+  }
 
-.name-group,
-.mail-group,
-.msg
-{
+  .name-group,
+  .mail-group,
+  .msg
+  {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+  }
 
-form button
-{
+  form button
+  {
     background: #ff014d2f;
     color: #fff;
     padding: 12px 30px;
@@ -656,23 +647,23 @@ form button
     text-transform: uppercase;
     transition: all .3s ease-in-out;
     cursor: pointer;    
-}
+ }
 
-form button:hover
-{
+  form button:hover
+  {
     background: #ff014f;
     
-}
+ }
 
-.footer {   
+  .footer {   
     width: 100%;
     background-color: #ff014d2f;
     color: #fff;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
- }
+  }
 
- .material-symbols-outlined {
+  .material-symbols-outlined {
     font-family: "Material Symbols Outlined";
     font-size: 24px;
     display: inline-block;
@@ -681,22 +672,21 @@ form button:hover
     /* not necessary. makes it so you can't highlight. -webkit- is for safari! */
     -webkit-user-select: none;
     user-select: none;
-}
+  }
 
-.content-container {
-  height: 150vh;
-}
-#scroll-to-top {
+  .content-container {
+    height: 150vh;
+  }
+
+  #scroll-to-top {
     position: sticky;
-    /* bottom is easy, just set it to what you want */
     bottom: 15px;
     /* to keep distance from bottom on footer*/
     margin-bottom: 15px;
     left: 0;
     right: 5%;
     margin-left: auto;   
-    color: #fff; 
-    /* look good (actually a really nice color!) */
+    color: #fff;
     background: #ff014f;
     width: 40px;
     height: 40px;
@@ -705,6 +695,9 @@ form button:hover
     justify-content: center;
     border-radius: 50%;
     cursor: pointer;
+    scroll-behavior: smooth;
   }
-
- 
+   
+  html{    
+    scroll-behavior: smooth;
+  }
