@@ -129,12 +129,34 @@ b{
 
 .toggle
 {
-    display: none;
+    display: none;  
+    
 }
 
 .popup-mobile-menu
 {
     display: none;
+    height: 100px;
+    width: 130px;
+    overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1c1e22;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff014f;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
 }
 
 .home .home-inner
@@ -667,8 +689,7 @@ table {
     font-family: "Material Symbols Outlined";
     font-size: 24px;
     display: inline-block;
-    white-space: nowrap;
-          
+    white-space: nowrap;          
     /* not necessary. makes it so you can't highlight. -webkit- is for safari! */
     -webkit-user-select: none;
     user-select: none;
