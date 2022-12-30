@@ -455,9 +455,9 @@ table {
     width: 1400px;   
     display: flex;   
     flex-wrap: wrap;
-    text-align: justify;  
-     
+    text-align: justify;       
 }
+
   td img{
     transition: all 1000ms ease-in-out;
     border-radius: 20px;
