@@ -1,3 +1,3 @@
 # alexandramaro.github.io
 
-Trabalho feito no âmbito da formação de Programador informática do IEFP.
+Trabalho feito no âmbito da formação - Programador Informática - PROG10 - IEFP.
